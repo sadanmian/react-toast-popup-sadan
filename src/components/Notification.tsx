@@ -8,7 +8,6 @@ import {
 } from "react-icons/ai";
 import "./Notification.css";
 import { NotificationProps } from "./types";
-// import { NotificationProps } from "./types";
 
 const iconStyles: React.CSSProperties = { marginRight: "10px" };
 const icons: Record<string, JSX.Element> = {
@@ -31,7 +30,7 @@ const Notification: React.FC<NotificationProps> = ({
   animation = "slide",
 }) => {
   // A11y
-  const notificationRef = useRef < HTMLDivElement > null;
+  const notificationRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (notificationRef.current) {

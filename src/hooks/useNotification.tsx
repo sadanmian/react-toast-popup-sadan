@@ -6,11 +6,6 @@ import {
   PositionType,
   UseNotificationReturn,
 } from "../components/types";
-// import {
-//   NotificationProps,
-//   PositionType,
-//   UseNotificationReturn,
-// } from "../components/types";
 
 const useNotification = (
   position: PositionType = "bottom-right"

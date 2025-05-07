@@ -1,6 +1,6 @@
 {
   "name": "react-toast-popup-sadan",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reusable Toast Library",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
